@@ -4463,10 +4463,10 @@
   (gr_text "-" (at 169.4 93.6) (layer "B.SilkS") (tstamp e27b891b-56fa-4970-99df-d7df37a83408)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left bottom mirror))
   )
-  (gr_text "+" (at 148.2 93.8) (layer "F.SilkS") (tstamp 2cad4297-5e71-4f0f-adb4-981549173465)
+  (gr_text "+" (at 148 93) (layer "F.SilkS") (tstamp 2cad4297-5e71-4f0f-adb4-981549173465)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left bottom))
   )
-  (gr_text "-" (at 167.4 93.6) (layer "F.SilkS") (tstamp e6a2a572-7ac4-480d-80d0-2b87435ebddd)
+  (gr_text "-" (at 168 93) (layer "F.SilkS") (tstamp e6a2a572-7ac4-480d-80d0-2b87435ebddd)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left bottom))
   )
 
