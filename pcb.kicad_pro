@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -176,6 +176,9 @@
         0.1,
         0.15,
         0.2,
+        0.205232,
+        0.267208,
+        0.34925,
         0.5,
         1.0
       ],
@@ -449,6 +452,23 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "50R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.34925,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -473,6 +493,23 @@
         "via_diameter": 0.45,
         "via_drill": 0.2,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.267208,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "usb",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.267208,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -482,136 +519,16 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Power",
-        "pattern": "+3.3VA"
+        "netclass": "50R",
+        "pattern": "ESP-RF"
       },
       {
-        "netclass": "Power",
-        "pattern": "+3V3"
+        "netclass": "50R",
+        "pattern": "ANT-RF"
       },
       {
-        "netclass": "Power",
-        "pattern": "/VBUS"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "VCC"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/BOOT0"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/CAN+"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/CAN-"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/HSE_IN"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/HSE_OUT"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/LED_STAT"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/NRST"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "CANRX"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "CANTX"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "Net-(D1-Pad1)"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "Net-(D2-Pad1)"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "Net-(J2-PadA5)"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "Net-(J2-PadB5)"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "Net-(JP1-Pad2)"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "SWCLK"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "SWDIO"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "SWO"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "USB_D+"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "USB_D-"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "unconnected-(J2-PadA8)"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "unconnected-(J2-PadB8)"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "unconnected-(J2-PadS1)"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "unconnected-(J4-Pad3)"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "unconnected-(U1-Pad5)"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "unconnected-(U3-Pad25)"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "unconnected-(U3-Pad26)"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "unconnected-(U3-Pad27)"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "unconnected-(U3-Pad28)"
+        "netclass": "usb",
+        "pattern": "USB_D*"
       }
     ]
   },
@@ -664,10 +581,6 @@
     [
       "74bf6178-dca6-4427-901b-44badacb7eee",
       ""
-    ],
-    [
-      "2156e343-9b45-4780-9034-2535dd910fa6",
-      "LEDs"
     ],
     [
       "7d25a774-c98a-421e-98be-59f63435153d",

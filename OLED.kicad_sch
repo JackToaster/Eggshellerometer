@@ -863,9 +863,6 @@
         (path "/74bf6178-dca6-4427-901b-44badacb7eee"
           (reference "#PWR021") (unit 1)
         )
-        (path "/74bf6178-dca6-4427-901b-44badacb7eee/2156e343-9b45-4780-9034-2535dd910fa6"
-          (reference "#PWR020") (unit 1)
-        )
         (path "/74bf6178-dca6-4427-901b-44badacb7eee/7d25a774-c98a-421e-98be-59f63435153d"
           (reference "#PWR021") (unit 1)
         )
@@ -994,9 +991,6 @@
         (path "/74bf6178-dca6-4427-901b-44badacb7eee"
           (reference "R8") (unit 1)
         )
-        (path "/74bf6178-dca6-4427-901b-44badacb7eee/2156e343-9b45-4780-9034-2535dd910fa6"
-          (reference "R2") (unit 1)
-        )
         (path "/74bf6178-dca6-4427-901b-44badacb7eee/7d25a774-c98a-421e-98be-59f63435153d"
           (reference "R8") (unit 1)
         )
@@ -1024,9 +1018,6 @@
       (project "pcb"
         (path "/74bf6178-dca6-4427-901b-44badacb7eee"
           (reference "#PWR023") (unit 1)
-        )
-        (path "/74bf6178-dca6-4427-901b-44badacb7eee/2156e343-9b45-4780-9034-2535dd910fa6"
-          (reference "#PWR05") (unit 1)
         )
         (path "/74bf6178-dca6-4427-901b-44badacb7eee/7d25a774-c98a-421e-98be-59f63435153d"
           (reference "#PWR024") (unit 1)
@@ -1290,9 +1281,6 @@
         (path "/74bf6178-dca6-4427-901b-44badacb7eee"
           (reference "Q3") (unit 1)
         )
-        (path "/74bf6178-dca6-4427-901b-44badacb7eee/2156e343-9b45-4780-9034-2535dd910fa6"
-          (reference "Q1") (unit 1)
-        )
         (path "/74bf6178-dca6-4427-901b-44badacb7eee/7d25a774-c98a-421e-98be-59f63435153d"
           (reference "Q3") (unit 1)
         )
@@ -1321,9 +1309,6 @@
         (path "/74bf6178-dca6-4427-901b-44badacb7eee"
           (reference "#PWR025") (unit 1)
         )
-        (path "/74bf6178-dca6-4427-901b-44badacb7eee/2156e343-9b45-4780-9034-2535dd910fa6"
-          (reference "#PWR05") (unit 1)
-        )
         (path "/74bf6178-dca6-4427-901b-44badacb7eee/7d25a774-c98a-421e-98be-59f63435153d"
           (reference "#PWR023") (unit 1)
         )
@@ -1351,9 +1336,6 @@
       (project "pcb"
         (path "/74bf6178-dca6-4427-901b-44badacb7eee"
           (reference "#PWR022") (unit 1)
-        )
-        (path "/74bf6178-dca6-4427-901b-44badacb7eee/2156e343-9b45-4780-9034-2535dd910fa6"
-          (reference "#PWR05") (unit 1)
         )
         (path "/74bf6178-dca6-4427-901b-44badacb7eee/7d25a774-c98a-421e-98be-59f63435153d"
           (reference "#PWR022") (unit 1)
@@ -1388,9 +1370,6 @@
         (path "/74bf6178-dca6-4427-901b-44badacb7eee"
           (reference "Q4") (unit 1)
         )
-        (path "/74bf6178-dca6-4427-901b-44badacb7eee/2156e343-9b45-4780-9034-2535dd910fa6"
-          (reference "Q2") (unit 1)
-        )
         (path "/74bf6178-dca6-4427-901b-44badacb7eee/7d25a774-c98a-421e-98be-59f63435153d"
           (reference "Q4") (unit 1)
         )
@@ -1422,9 +1401,6 @@
       (project "pcb"
         (path "/74bf6178-dca6-4427-901b-44badacb7eee"
           (reference "R3") (unit 1)
-        )
-        (path "/74bf6178-dca6-4427-901b-44badacb7eee/2156e343-9b45-4780-9034-2535dd910fa6"
-          (reference "R1") (unit 1)
         )
         (path "/74bf6178-dca6-4427-901b-44badacb7eee/7d25a774-c98a-421e-98be-59f63435153d"
           (reference "R3") (unit 1)
