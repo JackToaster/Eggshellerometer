@@ -863,9 +863,6 @@
         (path "/74bf6178-dca6-4427-901b-44badacb7eee"
           (reference "#PWR021") (unit 1)
         )
-        (path "/74bf6178-dca6-4427-901b-44badacb7eee/2156e343-9b45-4780-9034-2535dd910fa6"
-          (reference "#PWR020") (unit 1)
-        )
         (path "/74bf6178-dca6-4427-901b-44badacb7eee/7d25a774-c98a-421e-98be-59f63435153d"
           (reference "#PWR021") (unit 1)
         )
@@ -886,6 +883,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 153.67 62.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C52923" (at 153.67 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2d7f8da7-565d-4078-8424-022d77498906))
@@ -917,6 +917,9 @@
     (property "Datasheet" "~" (at 165.1 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C52923" (at 165.1 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 436466a1-1f9c-44a3-a1a0-06f28e90484a))
     (pin "2" (uuid 18b23687-6d0a-4163-acc3-35602bfba157))
     (instances
@@ -946,6 +949,9 @@
     (property "Datasheet" "~" (at 154.94 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C12530" (at 154.94 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 3d6122e6-b38f-4724-bba1-1a334082aee5))
     (pin "2" (uuid 0103d2fe-a614-4a2a-bd34-8b3237c4a844))
     (instances
@@ -969,10 +975,13 @@
     (property "Value" "10k" (at 121.92 57.15 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 124.46 55.88 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 124.46 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 124.46 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C25086" (at 124.46 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2f0b0d5f-4bc2-4a78-ad43-742b9fbf3e54))
@@ -981,9 +990,6 @@
       (project "pcb"
         (path "/74bf6178-dca6-4427-901b-44badacb7eee"
           (reference "R8") (unit 1)
-        )
-        (path "/74bf6178-dca6-4427-901b-44badacb7eee/2156e343-9b45-4780-9034-2535dd910fa6"
-          (reference "R2") (unit 1)
         )
         (path "/74bf6178-dca6-4427-901b-44badacb7eee/7d25a774-c98a-421e-98be-59f63435153d"
           (reference "R8") (unit 1)
@@ -1013,9 +1019,6 @@
         (path "/74bf6178-dca6-4427-901b-44badacb7eee"
           (reference "#PWR023") (unit 1)
         )
-        (path "/74bf6178-dca6-4427-901b-44badacb7eee/2156e343-9b45-4780-9034-2535dd910fa6"
-          (reference "#PWR05") (unit 1)
-        )
         (path "/74bf6178-dca6-4427-901b-44badacb7eee/7d25a774-c98a-421e-98be-59f63435153d"
           (reference "#PWR024") (unit 1)
         )
@@ -1036,6 +1039,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 115.57 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C23733" (at 115.57 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 68742e65-fafd-4c53-9bd7-0f97d93bbd33))
@@ -1061,10 +1067,13 @@
     (property "Value" "560k" (at 143.51 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 140.97 95.25 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 140.97 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 140.97 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C912013" (at 140.97 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid dfacfdbf-5c59-48e6-a468-fd1fb9c0b7a1))
@@ -1165,6 +1174,9 @@
     (property "Datasheet" "~" (at 172.72 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C1525" (at 172.72 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid afc2307d-d155-409f-b089-9112de822b53))
     (pin "2" (uuid d4989c57-9ad6-41e6-b857-1f0eb75aafc2))
     (instances
@@ -1192,6 +1204,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 163.83 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C23733" (at 163.83 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 49a8a369-591a-455c-a1ed-7c6bb3e60aa7))
@@ -1223,6 +1238,9 @@
     (property "Datasheet" "~" (at 124.46 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C1525" (at 124.46 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 2ad23c4a-77b5-410f-a988-4b84bc131cf6))
     (pin "2" (uuid 3b5dec48-7a84-4c97-9554-111c2adeb393))
     (instances
@@ -1252,6 +1270,9 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" (at 121.92 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
+    (property "LCSC" "C8545" (at 121.92 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 37cfd02f-72d4-44ae-a5d2-d7607410c512))
     (pin "2" (uuid 8b209c71-5f58-4e0c-a10d-4b75386d25a8))
     (pin "3" (uuid dc27733b-587c-49aa-bd4b-f472ab8c841d))
@@ -1259,9 +1280,6 @@
       (project "pcb"
         (path "/74bf6178-dca6-4427-901b-44badacb7eee"
           (reference "Q3") (unit 1)
-        )
-        (path "/74bf6178-dca6-4427-901b-44badacb7eee/2156e343-9b45-4780-9034-2535dd910fa6"
-          (reference "Q1") (unit 1)
         )
         (path "/74bf6178-dca6-4427-901b-44badacb7eee/7d25a774-c98a-421e-98be-59f63435153d"
           (reference "Q3") (unit 1)
@@ -1291,9 +1309,6 @@
         (path "/74bf6178-dca6-4427-901b-44badacb7eee"
           (reference "#PWR025") (unit 1)
         )
-        (path "/74bf6178-dca6-4427-901b-44badacb7eee/2156e343-9b45-4780-9034-2535dd910fa6"
-          (reference "#PWR05") (unit 1)
-        )
         (path "/74bf6178-dca6-4427-901b-44badacb7eee/7d25a774-c98a-421e-98be-59f63435153d"
           (reference "#PWR023") (unit 1)
         )
@@ -1322,9 +1337,6 @@
         (path "/74bf6178-dca6-4427-901b-44badacb7eee"
           (reference "#PWR022") (unit 1)
         )
-        (path "/74bf6178-dca6-4427-901b-44badacb7eee/2156e343-9b45-4780-9034-2535dd910fa6"
-          (reference "#PWR05") (unit 1)
-        )
         (path "/74bf6178-dca6-4427-901b-44badacb7eee/7d25a774-c98a-421e-98be-59f63435153d"
           (reference "#PWR022") (unit 1)
         )
@@ -1347,6 +1359,9 @@
     (property "Datasheet" "http://www.vishay.com/docs/63924/si2371eds.pdf" (at 134.62 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
+    (property "LCSC" "C10487" (at 134.62 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid fd64e4a2-c307-46ee-ac51-9444ad5c6b2d))
     (pin "2" (uuid a80d8669-3019-4a5b-ad2a-46c89b26735b))
     (pin "3" (uuid eef7a91c-3c61-41ee-91c6-2830403d90bd))
@@ -1354,9 +1369,6 @@
       (project "pcb"
         (path "/74bf6178-dca6-4427-901b-44badacb7eee"
           (reference "Q4") (unit 1)
-        )
-        (path "/74bf6178-dca6-4427-901b-44badacb7eee/2156e343-9b45-4780-9034-2535dd910fa6"
-          (reference "Q2") (unit 1)
         )
         (path "/74bf6178-dca6-4427-901b-44badacb7eee/7d25a774-c98a-421e-98be-59f63435153d"
           (reference "Q4") (unit 1)
@@ -1374,10 +1386,13 @@
     (property "Value" "10k" (at 113.03 74.93 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 115.57 73.66 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 115.57 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 115.57 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C25086" (at 115.57 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f669db41-7b67-4a2f-9ce4-84e229555b99))
@@ -1386,9 +1401,6 @@
       (project "pcb"
         (path "/74bf6178-dca6-4427-901b-44badacb7eee"
           (reference "R3") (unit 1)
-        )
-        (path "/74bf6178-dca6-4427-901b-44badacb7eee/2156e343-9b45-4780-9034-2535dd910fa6"
-          (reference "R1") (unit 1)
         )
         (path "/74bf6178-dca6-4427-901b-44badacb7eee/7d25a774-c98a-421e-98be-59f63435153d"
           (reference "R3") (unit 1)

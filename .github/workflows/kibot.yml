@@ -26,6 +26,8 @@ jobs:
       image: ghcr.io/inti-cmnb/kicad7_auto:1.6.1
     steps:
       - uses: actions/checkout@v2
+        with:
+          submodules: recursive
       - name: run kibot
         run: | 
           kibot -c kibot.yml -e ${{env.schema}} -b ${{env.board}} -d ${{env.dir}} -s run_drc -v -i
@@ -35,6 +37,8 @@ jobs:
       image: ghcr.io/inti-cmnb/kicad7_auto:1.6.1
     steps:
       - uses: actions/checkout@v2
+        with:
+          submodules: recursive
       - name: run kibot
         run: | 
           kibot -c kibot.yml -e ${{env.schema}} -b ${{env.board}} -d ${{env.dir}} -s run_erc -v -i
@@ -46,6 +50,8 @@ jobs:
       image: ghcr.io/inti-cmnb/kicad7_auto:1.6.1
     steps:
       - uses: actions/checkout@v2
+        with:
+          submodules: recursive
       - name: run kibot
         run: | 
           kibot -c kibot.yml -e ${{env.schema}} -b ${{env.board}} -d ${{env.dir}} -s run_erc,run_drc -v \
@@ -67,6 +73,8 @@ jobs:
       image: ghcr.io/inti-cmnb/kicad7_auto:1.6.1
     steps:
       - uses: actions/checkout@v2
+        with:
+          submodules: recursive
       - name: run kibot
         run: |
           kibot -c kibot.yml -e ${{env.schema}} -b ${{env.board}} -d ${{env.dir}} -s run_erc,run_drc -v \
@@ -109,6 +117,8 @@ jobs:
       image: ghcr.io/inti-cmnb/kicad7_auto:1.6.1
     steps:
       - uses: actions/checkout@v2
+        with:
+          submodules: recursive
       - name: run kibot
         run: | 
           kibot -c kibot.yml -e ${{env.schema}} -b ${{env.board}} -d ${{env.dir}} -s run_erc,run_drc -v \
